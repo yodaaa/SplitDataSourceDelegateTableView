@@ -8,7 +8,9 @@
 
 import UIKit
 
-class TableViewDataSourceDelegateController: UITableView, UITableViewDelegate, UITableViewDataSource {
+typealias UITableViewDD = UITableViewDelegate & UITableViewDataSource
+
+class TableViewDataSourceDelegateController: UITableView, UITableViewDD {
 
     
     var tableData: [[String]] = [
