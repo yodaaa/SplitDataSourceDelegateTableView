@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="prC-Hv-Eht">
             <objects>
-                <viewController id="Gcz-3L-xLj" sceneMemberID="viewController">
+                <viewController id="Gcz-3L-xLj" customClass="ViewController" customModule="SplitDataSourceTableView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBp-kg-dav">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zym-5W-Lvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1440" y="-359"/>
+            <point key="canvasLocation" x="1436" y="-465.51724137931041"/>
         </scene>
     </scenes>
 </document>
