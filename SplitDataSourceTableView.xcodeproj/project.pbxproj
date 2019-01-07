@@ -13,11 +13,10 @@
 		D5C2D42021E32EF300C2741C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D41E21E32EF300C2741C /* LaunchScreen.storyboard */; };
 		D5C2D42B21E32EF300C2741C /* SplitDataSourceTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2D42A21E32EF300C2741C /* SplitDataSourceTableViewTests.swift */; };
 		D5C2D43621E32EF300C2741C /* SplitDataSourceTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2D43521E32EF300C2741C /* SplitDataSourceTableViewUITests.swift */; };
-		D5C2D44621E3309B00C2741C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2D44521E3309B00C2741C /* ViewController.swift */; };
+		D5C2D44621E3309B00C2741C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2D44521E3309B00C2741C /* TableViewController.swift */; };
 		D5C2D44821E331C600C2741C /* TableViewDataSourceDelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2D44721E331C500C2741C /* TableViewDataSourceDelegateController.swift */; };
-		D5C2D44C21E33BA600C2741C /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D44B21E33BA600C2741C /* TableView.xib */; };
-		D5C2D44E21E3437600C2741C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D44D21E3437600C2741C /* View.xib */; };
-		D5C2D45021E3468F00C2741C /* tableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D44F21E3468F00C2741C /* tableViewCell.xib */; };
+		D5C2D44E21E3437600C2741C /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D44D21E3437600C2741C /* TableView.xib */; };
+		D5C2D45021E3468F00C2741C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C2D44F21E3468F00C2741C /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +49,10 @@
 		D5C2D43121E32EF300C2741C /* SplitDataSourceTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitDataSourceTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C2D43521E32EF300C2741C /* SplitDataSourceTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitDataSourceTableViewUITests.swift; sourceTree = "<group>"; };
 		D5C2D43721E32EF300C2741C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5C2D44521E3309B00C2741C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5C2D44521E3309B00C2741C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D5C2D44721E331C500C2741C /* TableViewDataSourceDelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceDelegateController.swift; sourceTree = "<group>"; };
-		D5C2D44B21E33BA600C2741C /* TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableView.xib; sourceTree = "<group>"; };
-		D5C2D44D21E3437600C2741C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		D5C2D44F21E3468F00C2741C /* tableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableViewCell.xib; sourceTree = "<group>"; };
+		D5C2D44D21E3437600C2741C /* TableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableView.xib; sourceTree = "<group>"; };
+		D5C2D44F21E3468F00C2741C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +103,15 @@
 		D5C2D41421E32EF100C2741C /* SplitDataSourceTableView */ = {
 			isa = PBXGroup;
 			children = (
-				D5C2D44B21E33BA600C2741C /* TableView.xib */,
 				D5C2D41521E32EF100C2741C /* AppDelegate.swift */,
-				D5C2D44521E3309B00C2741C /* ViewController.swift */,
+				D5C2D44521E3309B00C2741C /* TableViewController.swift */,
 				D5C2D44721E331C500C2741C /* TableViewDataSourceDelegateController.swift */,
 				D5C2D41921E32EF100C2741C /* Main.storyboard */,
 				D5C2D41C21E32EF300C2741C /* Assets.xcassets */,
 				D5C2D41E21E32EF300C2741C /* LaunchScreen.storyboard */,
 				D5C2D42121E32EF300C2741C /* Info.plist */,
-				D5C2D44D21E3437600C2741C /* View.xib */,
-				D5C2D44F21E3468F00C2741C /* tableViewCell.xib */,
+				D5C2D44D21E3437600C2741C /* TableView.xib */,
+				D5C2D44F21E3468F00C2741C /* TableViewCell.xib */,
 			);
 			path = SplitDataSourceTableView;
 			sourceTree = "<group>";
@@ -242,11 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C2D42021E32EF300C2741C /* LaunchScreen.storyboard in Resources */,
-				D5C2D44E21E3437600C2741C /* View.xib in Resources */,
-				D5C2D44C21E33BA600C2741C /* TableView.xib in Resources */,
+				D5C2D44E21E3437600C2741C /* TableView.xib in Resources */,
 				D5C2D41D21E32EF300C2741C /* Assets.xcassets in Resources */,
 				D5C2D41B21E32EF100C2741C /* Main.storyboard in Resources */,
-				D5C2D45021E3468F00C2741C /* tableViewCell.xib in Resources */,
+				D5C2D45021E3468F00C2741C /* TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C2D44621E3309B00C2741C /* ViewController.swift in Sources */,
+				D5C2D44621E3309B00C2741C /* TableViewController.swift in Sources */,
 				D5C2D41621E32EF100C2741C /* AppDelegate.swift in Sources */,
 				D5C2D44821E331C600C2741C /* TableViewDataSourceDelegateController.swift in Sources */,
 			);

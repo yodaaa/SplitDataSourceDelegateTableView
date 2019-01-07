@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewController: UIViewController {
 
     
-    let tableView = UINib(nibName: "View", bundle: nil).instantiate(withOwner: self, options: nil).first as! UITableView
+    let tableView = UINib(nibName: "TableView", bundle: nil).instantiate(withOwner: self, options: nil).first as! UITableView
 
     var tableViewDataSourceDelegate: TableViewDataSourceDelegateController = TableViewDataSourceDelegateController()
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(UINib(nibName: "tableViewCell", bundle: nil), forCellReuseIdentifier: "tableViewCell")
+        tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "tableViewCell")
         
         tableView.delegate = tableViewDataSourceDelegate
         tableView.dataSource = tableViewDataSourceDelegate
