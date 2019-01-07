@@ -1,5 +1,5 @@
 # SplitDataSourceDelegateTableView
-tableviewのdatasourceとdelegateを分離するだけのプロジェクト
+tableviewのdatasourceとdelegateをviewcontrollerから分離するだけのプロジェクト
 
 * TableViewController.swiftとTableViewDataSourceDelegateController.swiftの2つに分けました.
 * TableViewDataSourceDelegateController.swiftにdelegateとdatasourceを書いています.
