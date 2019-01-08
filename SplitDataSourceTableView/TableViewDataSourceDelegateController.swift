@@ -10,7 +10,7 @@ import UIKit
 
 typealias UITableViewDD = UITableViewDelegate & UITableViewDataSource
 
-class TableViewDataSourceDelegateController: UITableView, UITableViewDD {
+class TableViewDataSourceDelegateController: NSObject, UITableViewDD {
 
     
     var tableData: [[String]] = [

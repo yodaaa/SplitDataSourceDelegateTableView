@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TableViewController.swift
 //  SplitDataSourceTableView
 //
 //  Created by yodaaa on 2019/01/07.
