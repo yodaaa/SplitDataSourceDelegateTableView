@@ -12,7 +12,7 @@ typealias UITableViewDD = UITableViewDelegate & UITableViewDataSource
 
 class TableViewDataSourceDelegateController: NSObject, UITableViewDD {
 
-    
+    //tabledata
     var tableData: [[String]] = [
         ["a", "b", "c"],
         ["d", "e"],
@@ -32,10 +32,13 @@ class TableViewDataSourceDelegateController: NSObject, UITableViewDD {
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         return nil
     }
-    func numberOfSections(in tableView: UITableView) -> Int { // sectionの数を決める
+    
+    // sectionの数を決める
+    func numberOfSections(in tableView: UITableView) -> Int {
         return tableData.count
     }
     
+    // sectionごとのrowの数を決める
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableData[section].count
     }
@@ -51,7 +54,7 @@ class TableViewDataSourceDelegateController: NSObject, UITableViewDD {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("didSelectRowAt: \(indexPath)")
         
-        // タップ後すぐ非選択状態にするには下記メソッドを呼び出します．
+        // タップ後すぐ非選択状態にするには下記メソッドを呼び出す
         tableView.deselectRow(at: indexPath, animated: true)
     }
 
